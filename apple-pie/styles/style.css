@@ -1,0 +1,43 @@
+body{
+    font-size: 1.5rem;
+}
+header{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background: url(../images/apple-pie.jpg) no-repeat;
+    background-position: 100% 20%;
+    position: relative;
+    text-align: center;
+}
+.header-title{
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+}
+
+section{
+    margin: 0 25%;
+}
+
+article{
+    margin-top: 30px;
+}
+
+article img{
+    width: 400px;
+    max-height: 70px;
+    margin: auto;
+}
+
+article .description{
+    padding-top: 70px;
+}
+
+.center{
+    text-align: center;
+}
