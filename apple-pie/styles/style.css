@@ -41,3 +41,21 @@ article .description{
 .center{
     text-align: center;
 }
+
+ul li{
+    list-style-type: "-";
+}
+
+ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+    position: relative;
+}
+ol > li:before {
+    counter-increment: list;
+    content: counter(list, decimal) ")";
+    position: absolute;
+    left: -1.4em;
+}
